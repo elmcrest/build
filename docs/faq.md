@@ -77,7 +77,8 @@ you can:
   
 ## How can I use my own development server to serve generated files?
 
-There are 2 options for using a different server during development:
+Besides the fact that it's useless since generated files assume there are the only ressources in the world, there are 2 options for using a different server during development:
+(see why it's pointless here https://github.com/elmcrest/vanilla_web_dart2.0)
 
 1. Run `build_runner serve web:<port>` and proxy the requests to it from your
 other server. This has the benefit of delaying requests while a build is
